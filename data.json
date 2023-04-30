@@ -1,268 +1,282 @@
 {
-    "asesores": [
-        {
-          "id": 1,
-          "ape": "Quispe Villcas",
-          "nom": "Aldair Emerson",
-          "tel": "972136515",
-          "correo": "blackaldair05@gmail.com",
-          "arch": "c://documents/aldair.pdf"
-        },
-        {
-          "id": 2,
-          "ape": "Ardiola Perez",
-          "nom": "Luis Fernando",
-          "tel": "972136515",
-          "correo": "ardi999@gmail.com",
-          "arch": "c://a"
-        },
-        {
-          "id": 3,
-          "ape": "Lau Mendez",
-          "nom": "Pedro Luis",
-          "tel": "972136515",
-          "correo": "pedrito05@hotmail.com",
-          "arch": "c://a"
-        },
-        {
-          "id": 4,
-          "ape": "Manco Mark",
-          "nom": "Lucas Felipe",
-          "tel": "972136515",
-          "correo": "lufe123@gmail.com",
-          "arch": "c://a"
-        },
-        {
-          "id": 5,
-          "ape": "Quispe Villcas",
-          "nom": "Aldair Emerson",
-          "tel": "972136515",
-          "correo": "blackaldair05@gmail.com",
-          "arch": "c://documents/aldair.pdf"
-        },
-        {
-          "id": 6,
-          "ape": "Ardiola Perez",
-          "nom": "Luis Fernando",
-          "tel": "972136515",
-          "correo": "ardi999@gmail.com",
-          "arch": "c://a"
-        },
-        {
-          "id": 7,
-          "ape": "Lau Mendez",
-          "nom": "Pedro Luis",
-          "tel": "972136515",
-          "correo": "pedrito05@hotmail.com",
-          "arch": "c://a"
-        },
-        {
-          "id": 8,
-          "ape": "Manco Mark",
-          "nom": "Lucas Felipe",
-          "tel": "972136515",
-          "correo": "lufe123@gmail.com",
-          "arch": "c://a"
-        },
-        {
-          "id": 9,
-          "ape": "Manco Mark",
-          "nom": "Lucas Felipe",
-          "tel": "972136515",
-          "correo": "lufe123@gmail.com",
-          "arch": "c://a"
-        },
-        {
-          "id": 10,
-          "ape": "Gonzales",
-          "nom": "María",
-          "tel": "972136515",
-          "correo": "mariagonzales@gmail.com",
-          "arch": "c://documents/maria.pdf"
-        },
-        {
-          "id": 11,
-          "ape": "García",
-          "nom": "Juan",
-          "tel": "972136515",
-          "correo": "juangarcia@gmail.com",
-          "arch": "c://documents/juan.pdf"
-        },
-        {
-          "id": 12,
-          "ape": "Pérez",
-          "nom": "Jorge",
-          "tel": "972136515",
-          "correo": "jorgeperez@gmail.com",
-          "arch": "c://documents/jorge.pdf"
-        }
-    ],
-    "estudiantes" : [
-      {"id": 1, "nombre": "Sofía", "apellido": "González", "telefono": "54789321", "correo": "sofia.gonzalez@gmail.com"},
-      {"id": 2, "nombre": "Daniel", "apellido": "Ramírez", "telefono": "89321654", "correo": "daniel.ramirez@hotmail.com"},
-      {"id": 3, "nombre": "Ana", "apellido": "Martínez", "telefono": "42658793", "correo": "ana.martinez@yahoo.com"},
-      {"id": 4, "nombre": "Juan", "apellido": "Pérez", "telefono": "98765432", "correo": "juan.perez@gmail.com"},
-      {"id": 5, "nombre": "Valeria", "apellido": "Torres", "telefono": "36547892", "correo": "valeria.torres@hotmail.com"},
-      {"id": 6, "nombre": "Carlos", "apellido": "García", "telefono": "21435687", "correo": "carlos.garcia@yahoo.com"},
-      {"id": 7, "nombre": "Mariana", "apellido": "Hernández", "telefono": "75846923", "correo": "mariana.hernandez@gmail.com"},
-      {"id": 8, "nombre": "Luis", "apellido": "González", "telefono": "14785236", "correo": "luis.gonzalez@hotmail.com"},
-      {"id": 9, "nombre": "Fernanda", "apellido": "Vega", "telefono": "98765421", "correo": "fernanda.vega@yahoo.com"},
-      {"id": 10, "nombre": "Pedro", "apellido": "Díaz", "telefono": "45678901", "correo": "pedro.diaz@gmail.com"},
-      {"id": 11, "nombre": "Sara", "apellido": "Rodríguez", "telefono": "89653214", "correo": "sara.rodriguez@hotmail.com"},
-      {"id": 12, "nombre": "Manuel", "apellido": "Sánchez", "telefono": "63214587", "correo": "manuel.sanchez@yahoo.com"}
-  ]
-    ,
-    "lenguajes": [
-      {
-        "id": 2,
-        "desc": "Lenguaje de programación interpretado y orientado a objetos",
-        "abrev": ".py",
-        "tipoLeng": "Python"
-      },
-      {
-        "id": 3,
-        "desc": "Lenguaje de programación utilizado principalmente para el desarrollo web",
-        "abrev": ".rb",
-        "tipoLeng": "Ruby"
-      },
-      {
-        "id": 4,
-        "desc": "Lenguaje de programación de alto nivel utilizado para aplicaciones de escritorio",
-        "abrev": ".cs",
-        "tipoLeng": "C#"
-      },
-      {
-        "id": 5,
-        "desc": "Lenguaje de programación de scripting utilizado para automatizar tareas",
-        "abrev": ".ps1",
-        "tipoLeng": "PowerShell"
-      },
-      {
-        "id": 6,
-        "desc": "Lenguaje de programación utilizado para aplicaciones móviles y de escritorio",
-        "abrev": ".swift",
-        "tipoLeng": "Swift"
-      }
-  ],
-  "RecursoAprendizaje": [
+  "citas": [
     {
       "id": 1,
-      "titulo": "Introducción a Python",
-      "tema": "Python",
-      "tipocontenido": "Tutorial",
-      "url": "https://docs.python.org/es/3/tutorial/index.html",
-      "tamano": "N/A"
+      "date": "2023-04-10",
+      "client_id": 24,
+      "PsychologistID": 35,
+      "AppointStatusID": 3343
     },
     {
       "id": 2,
-      "titulo": "Curso de Java",
-      "tema": "Java",
-      "tipocontenido": "Curso",
-      "url": "https://www.udemy.com/course/java-programming-tutorial-for-beginners/",
-      "tamano": "5 GB"
+      "date": "2023-04-10",
+      "client_id": 21,
+      "PsychologistID": 31,
+      "AppointStatusID": 3113
     },
     {
       "id": 3,
-      "titulo": "Fundamentos de C++",
-      "tema": "C++",
-      "tipocontenido": "Libro",
-      "url": "https://www.amazon.com/Fundamentals-C-Programming-Computer-Science/dp/0134448235",
-      "tamano": "1.5 MB"
+      "date": "2023-04-10",
+      "client_id": 23,
+      "PsychologistID": 132,
+      "AppointStatusID": 32
     },
     {
       "id": 4,
-      "titulo": "Curso de Web Development",
-      "tema": "Desarrollo web",
-      "tipocontenido": "Curso",
-      "url": "https://www.udemy.com/course/the-complete-web-development-bootcamp/",
-      "tamano": "15 GB"
+      "ape": "Manco Mark",
+      "nom": "Lucas Felipe",
+      "tel": "972136515",
+      "correo": "lufe123@gmail.com",
+      "arch": "c://a"
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "userName": "Ricardo14",
+      "password": "holaMundo",
+      "names": "Cesar Ricardo",
+      "lastNames": "Rodriguez Ccorahua",
+      "emailAddress": "ricardito12hola@gmail.com",
+      "phoneNumber": "976238462",
+      "age": 23,
+      "UserStatus_id": 1,
+      "Gender_id": 1
+    },
+    {
+      "id": 2,
+      "userName": "Miguelaso",
+      "password": "adiosMiguel",
+      "names": "Miguel Angel",
+      "lastNames": "Huaman Sosa",
+      "emailAddress": "miguelito15as@gmail.com",
+      "phoneNumber": "956336482",
+      "age": 25,
+      "UserStatus_id": 1,
+      "Gender_id": 1
+    },
+    {
+      "id": 3,
+      "userName": "Marcos15",
+      "password": "messi23fw",
+      "names": "Marcos Alonso",
+      "lastNames": "Salinas Cotrina",
+      "emailAddress": "mymessi10best@gmail.com",
+      "phoneNumber": "994233461",
+      "age": 33,
+      "UserStatus_id": 1,
+      "Gender_id": 1
+    },
+    {
+      "id": 4,
+      "userName": "princesa12",
+      "password": "rockstarforever",
+      "names": "Angela Jimena",
+      "lastNames": "Valenzuela Hoyos",
+      "emailAddress": "siemprehappy15@gmail.com",
+      "phoneNumber": "956438361",
+      "age": 20,
+      "UserStatus_id": 1,
+      "Gender_id": 2
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "content": "excelente servicio",
+      "date": "2023-04-10",
+      "likes": 4,
+      "Client_id": 2,
+      "Psychologist_id": 3
+    },
+    {
+      "id": 2,
+      "content": "trato muy agradable",
+      "date": "2022-07-22",
+      "likes": 3,
+      "Client_id": 4,
+      "Psychologist_id": 2
+    },
+    {
+      "id": 3,
+      "content": "muy recomendado",
+      "date": "2022-02-18",
+      "likes": 5,
+      "Client_id": 4,
+      "Psychologist_id": 1
+    }
+  ],
+  "psychologists": [
+    {
+      "id": 1,
+      "userName": "Jorge",
+      "password": "170902jorge",
+      "names": "Jorge Miguel",
+      "lastNames": "Chavez Perez",
+      "emailAddress": "jorge.h.iguel@gmail.com",
+      "phoneNumber": "917081429",
+      "age": 27,
+      "rating": 4,
+      "UserStatus_Id": 1,
+      "Speciality_id": 2,
+      "Gender_id": "Masculino"
+    },
+    {
+      "id": 2,
+      "userName": "Estela",
+      "password": "213402estel",
+      "names": "Esteli Rosa",
+      "lastNames": "Serna Huamani",
+      "emailAddress": "estelita.y.tuo@gmail.com",
+      "phoneNumber": "963233429",
+      "age": 37,
+      "rating": 3,
+      "UserStatus_Id": 2,
+      "Speciality_id": 2,
+      "Gender_id": "Femenino"
+    }
+  ],
+  "payments": [
+    {
+      "id": 1,
+      "paymentCode": "BV100-1746456",
+      "idAppointment": 1,
+      "cardNumber": "4236178832453296",
+      "date": "2023-04-10",
+      "currency": "Soles",
+      "import": 64.00,
+      "name": "Jhon Alejandro",
+      "lastname": "Deza Mendoza",
+      "cvv": 234,
+      "expiration": "2023-07-08",
+      "email": "jhon1999@gmail.com"
+    },
+    {
+      "id": 2,
+      "paymentCode": "BV100-1746566",
+      "idAppointment": 2,
+      "cardNumber": "4236178832453567",
+      "date": "2023-04-12",
+      "currency": "Soles",
+      "import": 58.00,
+      "name": "Jhon Alejandro",
+      "lastname": "Deza Mendoza",
+      "cvv": 284,
+      "expiration": "2023-07-08",
+      "email": "julian1992@gmail.com"
+    },
+    {
+      "id": 3,
+      "paymentCode": "BV100-1746659",
+      "idAppointment": 3,
+      "cardNumber": "4236178832453567",
+      "date": "2023-04-12",
+      "currency": "Soles",
+      "import": 62.00,
+      "name": "Jhon Alejandro",
+      "lastname": "Deza Mendoza",
+      "cvv": 884,
+      "expiration": "2023-07-08",
+      "email": "maria1996@gmail.com"
+    },
+    {
+      "id": 4,
+      "paymentCode": "BV100-1746678",
+      "idAppointment": 4,
+      "cardNumber": "4236178832453567",
+      "date": "2023-04-12",
+      "currency": "Soles",
+      "import": 62.00,
+      "name": "Jhon Alejandro",
+      "lastname": "Deza Mendoza",
+      "cvv": 884,
+      "expiration": "2023-07-08",
+      "email": "ferale2000@gmail.com"
     },
     {
       "id": 5,
-      "titulo": "Introducción a la programación en R",
-      "tema": "R",
-      "tipocontenido": "Tutorial",
-      "url": "https://www.datacamp.com/courses/free-introduction-to-r",
-      "tamano": "N/A"
+      "paymentCode": "BV100-1746678",
+      "idAppointment": 5,
+      "cardNumber": "4236178832453567",
+      "date": "2023-04-12",
+      "currency": "Soles",
+      "import": 62.00,
+      "name": "Jhon Alejandro",
+      "lastname": "Deza Mendoza",
+      "cvv": 884,
+      "expiration": "2023-07-08",
+      "email": "ferale2000@gmail.com"
     },
     {
       "id": 6,
-      "titulo": "Fundamentos de la programación en JavaScript",
-      "tema": "JavaScript",
-      "tipocontenido": "Tutorial",
-      "url": "https://www.w3schools.com/js/default.asp",
-      "tamano": "N/A"
+      "paymentCode": "BV100-1746678",
+      "idAppointment": 6,
+      "cardNumber": "4236178832453567",
+      "date": "2023-04-12",
+      "currency": "Soles",
+      "import": 62.00,
+      "name": "Jhon Alejandro",
+      "lastname": "Deza Mendoza",
+      "cvv": 884,
+      "expiration": "2023-07-08",
+      "email": "ferale2000@gmail.com"
     },
     {
       "id": 7,
-      "titulo": "Curso de React.js",
-      "tema": "React",
-      "tipocontenido": "Curso",
-      "url": "https://www.udemy.com/course/react-the-complete-guide-incl-redux/",
-      "tamano": "6 GB"
+      "paymentCode": "BV100-1746678",
+      "idAppointment": 7,
+      "cardNumber": "4236178832453567",
+      "date": "2023-04-12",
+      "currency": "Soles",
+      "import": 62.00,
+      "name": "Jhon Alejandro",
+      "lastname": "Deza Mendoza",
+      "cvv": 884,
+      "expiration": "2023-07-08",
+      "email": "ferale2000@gmail.com"
     },
+
     {
       "id": 8,
-      "titulo": "Aprendiendo PHP",
-      "tema": "PHP",
-      "tipocontenido": "Tutorial",
-      "url": "https://www.php.net/manual/es/tutorial.php",
-      "tamano": "N/A"
+      "paymentCode": "BV100-1746678",
+      "idAppointment": 8,
+      "cardNumber": "4236178832453567",
+      "date": "2023-04-12",
+      "currency": "Soles",
+      "import": 62.00,
+      "name": "Jhon Alejandro",
+      "lastname": "Deza Mendoza",
+      "cvv": 884,
+      "expiration": "2023-07-08",
+      "email": "ferale2000@gmail.com"
     },
     {
       "id": 9,
-      "titulo": "Curso de Android Development",
-      "tema": "Android",
-      "tipocontenido": "Curso",
-      "url": "https://www.udacity.com/course/new-android-fundamentals--ud851",
-      "tamano": "N/A"
+      "paymentCode": "BV100-1746678",
+      "idAppointment": 9,
+      "cardNumber": "4236178832453567",
+      "date": "2023-04-12",
+      "currency": "Soles",
+      "import": 62.00,
+      "name": "Jhon Alejandro",
+      "lastname": "Deza Mendoza",
+      "cvv": 884,
+      "expiration": "2023-07-08",
+      "email": "ferale2000@gmail.com"
     },
     {
       "id": 10,
-      "titulo": "Introducción a la programación en MATLAB",
-      "tema": "MATLAB",
-      "tipocontenido": "Tutorial",
-      "url": "https://www.mathworks.com/learn/tutorials/matlab-onramp.html",
-      "tamano": "N/A"
+      "paymentCode": "BV100-1746678",
+      "idAppointment": 10,
+      "cardNumber": "4236178832453567",
+      "date": "2023-04-12",
+      "currency": "Soles",
+      "import": 62.00,
+      "name": "Jhon Alejandro",
+      "lastname": "Deza Mendoza",
+      "cvv": 884,
+      "expiration": "2023-07-08",
+      "email": "ferale2000@gmail.com"
     }
-  ],
-  "administradores": [
-    {
-        "id": 1,
-        "usuario": "brunodiaz",
-        "correoElec": "assemblergod@gmail.com",
-        "codigo": "u45"
-    },
-    {
-        "id": 2,
-        "usuario": "mBros",
-        "correoElec": "javamaster@gmail.com",
-        "codigo": "u67"
-    },
-    {
-        "id": 3,
-        "usuario": "la_tiburona",
-        "correoElec": "pythonlover@gmail.com",
-        "codigo": "u89"
-    },
-    {
-        "id": 4,
-        "usuario": "joel",
-        "correoElec": "assem@gmail.com",
-        "codigo": "u34"
-    },
-    {
-        "id": 5,
-        "usuario": "reanto",
-        "correoElec": "codemaster@gmail.com",
-        "codigo": "u77"
-    },
-    {
-        "id": 6,
-        "usuario": "uwu",
-        "correoElec": "csslover@gmail.com",
-        "codigo": "u99"
-    }
-]
+  ]
 }
-
